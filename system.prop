@@ -57,3 +57,12 @@ ro.enable_boot_charger_mode=1
 
 # USB
 persist.sys.usb.config=mtp
+
+#
+# HW Composer
+#
+debug.hwc.force_gpu=1
+debug.hwc.winupdate=0
+persist.sys.ui.hw=false
+debug.egl.hw=0
+debug.sf.hw=0
