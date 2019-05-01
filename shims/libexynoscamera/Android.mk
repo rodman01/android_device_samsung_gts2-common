@@ -14,13 +14,12 @@
 
 LOCAL_PATH := $(call my-dir)
 
-<<<<<<< HEAD
+
 include $(CLEAR_VARS)
-=======
+
 LOCAL_SRC_FILES := \
     CameraParameters.cpp \
     Fence.cpp
->>>>>>> aa5eb7b... zero: update libexynoscamera shim to Android P
 
 LOCAL_SRC_FILES := libexynoscamera.cpp
 
