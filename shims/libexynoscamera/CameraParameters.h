@@ -1,4 +1,3 @@
-<<<<<<< HEAD:shims/libexynoscamera/libexynoscamera.h
 namespace android
 {
 
@@ -38,7 +37,6 @@ public:
 };
 	
 };
-=======
 /*
  * Copyright (C) 2017-2018 TeamNexus
  *
@@ -94,4 +92,3 @@ public:
 };
 	
 };
->>>>>>> aa5eb7b... zero: update libexynoscamera shim to Android P:shims/libexynoscamera/CameraParameters.h
