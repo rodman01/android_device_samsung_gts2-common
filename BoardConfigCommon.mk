@@ -231,3 +231,7 @@ WIFI_DRIVER_FW_PATH_STA          := "/vendor/etc/wifi/bcmdhd_sta.bin"
 WIFI_DRIVER_FW_PATH_AP           := "/vendor/etc/wifi/bcmdhd_apsta.bin"
 #WIFI_BAND                        := 802_11_ABG
 WPA_SUPPLICANT_USE_HIDL          := true
+
+TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
+    /system/bin/mediaserver=24 \
+    /system/vendor/bin/hw/rild=27
